@@ -1,5 +1,5 @@
 import Login from "../components/Login";
-import Homepage from "./homepage";
+
 
 export default function Home() {
   return (
@@ -11,7 +11,7 @@ export default function Home() {
         onVolumeChange={(e) => updateVolume(e)}
         onTimeUpdate={(e) => updateProgress(e)}
       />
-      <Homepage />
+      <Login />
       {/* temporarily render page */}
     </div>
   );
